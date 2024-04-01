@@ -2,6 +2,7 @@
 _**Navigation >> IAM and admin >> Service accounts**_  
 Creating a Service account within GCP with a BigQuery User role.  
 Service account: my-project-1-393913-60c0ae7f9a40.json  
+Dataset: my-project-1-393913.test_task  
 
 
 **2. Creating Google Cloud Function**  
