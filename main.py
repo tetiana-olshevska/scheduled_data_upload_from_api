@@ -11,7 +11,7 @@ from tenacity import retry
 
 URL = "https://us-central1-passion-fbe7a.cloudfunctions.net/dzn54vzyt5ga"
 HEADERS = {
-    "Authorization": "gAAAAABmAY6FF0R7g69CkjcS3EWtOLMGqZE5DbmQPpdJuzT9qaaQZR1gRv2sYYSHwLCZpRptqjugjOEuYNLOtqiqHwiE9B9vSdK3VYHCyFUNzTCJgn2FGh5Dh8c-zj_Q5_l6M9zU_QfhW3BiO-GyBGS_Jl1GsE1XAw=="
+    "Authorization": "key"
 }
 
 BQ_CLIENT = bigquery.Client.from_service_account_json("my-project-1-393913-60c0ae7f9a40.json")
