@@ -9,12 +9,12 @@ from copy import copy
 from tenacity import retry
 
 
-URL = "https://us-central1-passion-fbe7a.cloudfunctions.net/dzn54vzyt5ga"
+URL = "url"
 HEADERS = {
     "Authorization": "key"
 }
 
-BQ_CLIENT = bigquery.Client.from_service_account_json("my-project-1-393913-60c0ae7f9a40.json")
+BQ_CLIENT = bigquery.Client.from_service_account_json("creds.json")
 
 
 def get_installs(_date: date) -> list[dict[str, Any]]:
