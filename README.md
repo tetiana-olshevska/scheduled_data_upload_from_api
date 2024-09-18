@@ -1,4 +1,4 @@
-** Scheduled data upload from API **
+**Scheduled data upload from API**
 
 The task is to set up daily data uploads from the given API using Google Cloud Platform. Taking into consideration the data update features and other requirements choose a DWH that supports SQL technology. Here I used BigQuery in combination with Cloud Scheduler and Cloud Function. Some data required cleaning and unification. Steps that required a little configurations are the following:
 
